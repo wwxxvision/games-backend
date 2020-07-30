@@ -1,0 +1,403 @@
+[2020-07-29T09:23:42.753] [ERROR] debug - null
+[2020-07-29T09:23:46.933] [INFO] debug - Socket {
+  nsp:
+   Namespace {
+     name: '/',
+     server:
+      Server {
+        nsps: [Object],
+        parentNsps: Map {},
+        _path: '/socket.io',
+        _serveClient: true,
+        parser: [Object],
+        encoder: Encoder {},
+        _adapter: [Function: Adapter],
+        _origins: '*:*',
+        sockets: [Circular],
+        eio: [Server],
+        httpServer: [Server],
+        engine: [Server] },
+     sockets: { QdFvEVSS6I6VpmbDAAAA: [Circular] },
+     connected: { QdFvEVSS6I6VpmbDAAAA: [Circular] },
+     fns: [],
+     ids: 0,
+     rooms: [],
+     flags: {},
+     adapter:
+      Adapter {
+        nsp: [Circular],
+        rooms: [Object],
+        sids: [Object],
+        encoder: Encoder {} },
+     _events: [Object: null prototype] { connection: [Function] },
+     _eventsCount: 1 },
+  server:
+   Server {
+     nsps: { '/': [Namespace] },
+     parentNsps: Map {},
+     _path: '/socket.io',
+     _serveClient: true,
+     parser:
+      { protocol: 4,
+        types: [Array],
+        CONNECT: 0,
+        DISCONNECT: 1,
+        EVENT: 2,
+        ACK: 3,
+        ERROR: 4,
+        BINARY_EVENT: 5,
+        BINARY_ACK: 6,
+        Encoder: [Function: Encoder],
+        Decoder: [Function: Decoder] },
+     encoder: Encoder {},
+     _adapter: [Function: Adapter],
+     _origins: '*:*',
+     sockets:
+      Namespace {
+        name: '/',
+        server: [Circular],
+        sockets: [Object],
+        connected: [Object],
+        fns: [],
+        ids: 0,
+        rooms: [],
+        flags: {},
+        adapter: [Adapter],
+        _events: [Object],
+        _eventsCount: 1 },
+     eio:
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'ws',
+        pingTimeout: 5000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Array],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Array],
+        ws: [WebSocketServer],
+        _events: [Object],
+        _eventsCount: 1 },
+     httpServer:
+      Server {
+        insecureHTTPParser: undefined,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [TCP],
+        _usingWorkers: false,
+        _workers: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        maxHeadersCount: null,
+        headersTimeout: 40000,
+        _connectionKey: '6::::3005',
+        [Symbol(IncomingMessage)]: [Function],
+        [Symbol(ServerResponse)]: [Function],
+        [Symbol(asyncId)]: 14 },
+     engine:
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'ws',
+        pingTimeout: 5000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Array],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Array],
+        ws: [WebSocketServer],
+        _events: [Object],
+        _eventsCount: 1 } },
+  adapter:
+   Adapter {
+     nsp:
+      Namespace {
+        name: '/',
+        server: [Server],
+        sockets: [Object],
+        connected: [Object],
+        fns: [],
+        ids: 0,
+        rooms: [],
+        flags: {},
+        adapter: [Circular],
+        _events: [Object],
+        _eventsCount: 1 },
+     rooms: { QdFvEVSS6I6VpmbDAAAA: [Room], chat: [Room] },
+     sids: { QdFvEVSS6I6VpmbDAAAA: [Object] },
+     encoder: Encoder {} },
+  id: 'QdFvEVSS6I6VpmbDAAAA',
+  client:
+   Client {
+     server:
+      Server {
+        nsps: [Object],
+        parentNsps: Map {},
+        _path: '/socket.io',
+        _serveClient: true,
+        parser: [Object],
+        encoder: Encoder {},
+        _adapter: [Function: Adapter],
+        _origins: '*:*',
+        sockets: [Namespace],
+        eio: [Server],
+        httpServer: [Server],
+        engine: [Server] },
+     conn:
+      Socket {
+        id: 'QdFvEVSS6I6VpmbDAAAA',
+        server: [Server],
+        upgrading: false,
+        upgraded: false,
+        readyState: 'open',
+        writeBuffer: [],
+        packetsFn: [],
+        sentCallbackFn: [],
+        cleanupFn: [Array],
+        request: [IncomingMessage],
+        remoteAddress: '::ffff:92.39.217.130',
+        checkIntervalTimer: null,
+        upgradeTimeoutTimer: null,
+        pingTimeoutTimer:
+         Timeout {
+           _called: false,
+           _idleTimeout: 30000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 4899,
+           _onTimeout: [Function],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: false,
+           [Symbol(asyncId)]: 31,
+           [Symbol(triggerId)]: 26 },
+        transport: [XHR],
+        _events: [Object],
+        _eventsCount: 3 },
+     encoder: Encoder {},
+     decoder: Decoder { reconstructor: null, _callbacks: [Object] },
+     id: 'QdFvEVSS6I6VpmbDAAAA',
+     request:
+      IncomingMessage {
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        socket: [Socket],
+        connection: [Socket],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        aborted: false,
+        upgrade: false,
+        url: '/socket.io/?EIO=3&transport=polling&t=NEPv2y8',
+        method: 'GET',
+        statusCode: null,
+        statusMessage: null,
+        client: [Socket],
+        _consuming: false,
+        _dumped: true,
+        _query: [Object],
+        res: [ServerResponse],
+        cleanup: [Function: cleanup] },
+     onclose: [Function: bound ],
+     ondata: [Function: bound ],
+     onerror: [Function: bound ],
+     ondecoded: [Function: bound ],
+     sockets: { QdFvEVSS6I6VpmbDAAAA: [Circular] },
+     nsps: { '/': [Circular] },
+     connectBuffer: [] },
+  conn:
+   Socket {
+     id: 'QdFvEVSS6I6VpmbDAAAA',
+     server:
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'ws',
+        pingTimeout: 5000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Array],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Array],
+        ws: [WebSocketServer],
+        _events: [Object],
+        _eventsCount: 1 },
+     upgrading: false,
+     upgraded: false,
+     readyState: 'open',
+     writeBuffer: [],
+     packetsFn: [],
+     sentCallbackFn: [],
+     cleanupFn: [ [Function], [Function] ],
+     request:
+      IncomingMessage {
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        socket: [Socket],
+        connection: [Socket],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        aborted: false,
+        upgrade: false,
+        url: '/socket.io/?EIO=3&transport=polling&t=NEPv2y8',
+        method: 'GET',
+        statusCode: null,
+        statusMessage: null,
+        client: [Socket],
+        _consuming: false,
+        _dumped: true,
+        _query: [Object],
+        res: [ServerResponse],
+        cleanup: [Function: cleanup] },
+     remoteAddress: '::ffff:92.39.217.130',
+     checkIntervalTimer: null,
+     upgradeTimeoutTimer: null,
+     pingTimeoutTimer:
+      Timeout {
+        _called: false,
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 4899,
+        _onTimeout: [Function],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(unrefed)]: false,
+        [Symbol(asyncId)]: 31,
+        [Symbol(triggerId)]: 26 },
+     transport:
+      XHR {
+        readyState: 'open',
+        discarded: false,
+        closeTimeout: 30000,
+        maxHttpBufferSize: 100000000,
+        httpCompression: [Object],
+        supportsBinary: true,
+        _events: [Object],
+        _eventsCount: 5,
+        sid: 'QdFvEVSS6I6VpmbDAAAA',
+        req: null,
+        res: null,
+        writable: false },
+     _events:
+      [Object: null prototype] {
+        close: [Array],
+        data: [Function: bound ],
+        error: [Function: bound ] },
+     _eventsCount: 3 },
+  rooms: {},
+  acks: {},
+  connected: true,
+  disconnected: false,
+  handshake:
+   { headers:
+      { host: '188.227.85.89:3005',
+        connection: 'keep-alive',
+        accept: '*/*',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+        origin: 'http://localhost:3000',
+        referer: 'http://localhost:3000/',
+        'accept-encoding': 'gzip, deflate',
+        'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' },
+     time:
+      'Wed Jul 29 2020 09:23:46 GMT+0000 (Coordinated Universal Time)',
+     address: '::ffff:92.39.217.130',
+     xdomain: true,
+     secure: false,
+     issued: 1596014626930,
+     url: '/socket.io/?EIO=3&transport=polling&t=NEPv2y8',
+     query: { EIO: '3', transport: 'polling', t: 'NEPv2y8' } },
+  fns: [],
+  flags: {},
+  _rooms: [] }
+[2020-07-29T09:23:50.654] [ERROR] debug - null
+[2020-07-29T09:23:51.933] [INFO] debug - [object Object]
+[2020-07-29T09:23:54.902] [INFO] debug - [object Object]
+[2020-07-29T09:25:44.547] [ERROR] debug - null
+[2020-07-29T09:26:43.212] [ERROR] debug - null
+[2020-07-29T09:27:28.335] [ERROR] debug - null
+[2020-07-29T09:27:33.468] [ERROR] debug - null
+[2020-07-29T09:28:13.085] [ERROR] debug - null
+[2020-07-29T09:28:20.263] [ERROR] debug - null
+[2020-07-29T09:28:28.727] [ERROR] debug - null
+[2020-07-29T09:28:43.926] [ERROR] debug - null
+[2020-07-29T09:29:10.671] [ERROR] debug - null
+[2020-07-29T09:29:18.951] [ERROR] debug - null
+[2020-07-29T09:29:46.258] [ERROR] debug - null
+[2020-07-29T09:30:32.076] [ERROR] debug - null
+[2020-07-29T09:42:36.485] [ERROR] debug - null
+[2020-07-29T09:42:40.717] [ERROR] debug - null
+[2020-07-29T09:42:59.022] [ERROR] debug - null
+[2020-07-29T09:43:57.991] [ERROR] debug - null
+[2020-07-29T09:44:51.249] [ERROR] debug - null
+[2020-07-29T09:45:21.354] [ERROR] debug - null
+[2020-07-29T09:45:29.047] [ERROR] debug - null
+[2020-07-29T09:45:56.366] [ERROR] debug - null
+[2020-07-29T09:46:24.483] [ERROR] debug - null
+[2020-07-29T09:47:05.455] [ERROR] debug - null
+[2020-07-29T09:48:21.809] [ERROR] debug - null
+[2020-07-29T09:48:43.675] [ERROR] debug - null
+[2020-07-29T09:48:51.325] [ERROR] debug - null
+[2020-07-29T09:48:51.940] [ERROR] debug - { Error: Unknown column 'chat' in 'where clause'
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: 'Unknown column \'chat\' in \'where clause\'' }

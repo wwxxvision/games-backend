@@ -1,0 +1,1137 @@
+[2020-07-29T12:23:57.832] [ERROR] default - null
+[2020-07-29T12:23:57.984] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:23:58.318] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:24:02.942] [ERROR] default - null
+[2020-07-29T12:24:03.234] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:24:03.519] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:24:07.787] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:24:38.968] [ERROR] default - null
+[2020-07-29T12:24:39.217] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:24:43.281] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:25:07.238] [ERROR] default - null
+[2020-07-29T12:25:08.325] [ERROR] default - null
+[2020-07-29T12:25:08.649] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:25:12.508] [ERROR] default - null
+[2020-07-29T12:25:12.607] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:25:14.908] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:25:19.714] [ERROR] default - null
+[2020-07-29T12:25:20.282] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:25:22.620] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 'chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id = \'chat\'\' at line 1' }
+[2020-07-29T12:25:42.941] [ERROR] default - null
+[2020-07-29T12:25:43.175] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:25:43.228] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:25:52.957] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:26:55.435] [ERROR] default - null
+[2020-07-29T12:26:55.575] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:26:55.894] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:27:01.560] [ERROR] default - null
+[2020-07-29T12:27:01.660] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:27:02.047] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:27:15.683] [ERROR] default - null
+[2020-07-29T12:27:15.863] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:27:16.131] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:27:21.234] [ERROR] default - null
+[2020-07-29T12:27:21.358] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:27:21.389] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:27:32.755] [ERROR] default - null
+[2020-07-29T12:27:32.905] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''play' WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'play\' WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:27:32.922] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''play' WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'play\' WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:27:43.606] [ERROR] default - null
+[2020-07-29T12:27:43.722] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:27:43.730] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id ='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id =\'chat\'\' at line 1' }
+[2020-07-29T12:27:57.380] [ERROR] default - null
+[2020-07-29T12:27:57.521] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id=\'chat\'\' at line 1' }
+[2020-07-29T12:27:57.524] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id=\'chat\'\' at line 1' }
+[2020-07-29T12:29:14.992] [ERROR] default - null
+[2020-07-29T12:29:15.220] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id=\'chat\'\' at line 1' }
+[2020-07-29T12:29:15.384] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id=\'chat\'\' at line 1' }
+[2020-07-29T12:29:19.200] [ERROR] default - null
+[2020-07-29T12:29:19.310] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id=\'chat\'\' at line 1' }
+[2020-07-29T12:29:19.947] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id='chat'' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id=\'chat\'\' at line 1' }
+[2020-07-29T12:29:33.323] [ERROR] default - null
+[2020-07-29T12:29:33.408] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id=chat\' at line 1' }
+[2020-07-29T12:29:33.945] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE id=chat\' at line 1' }
+[2020-07-29T12:31:15.356] [ERROR] default - null
+[2020-07-29T12:31:15.527] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'? WHERE id=chat\' at line 1' }
+[2020-07-29T12:31:15.530] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'? WHERE id=chat\' at line 1' }
+[2020-07-29T12:32:11.766] [ERROR] default - null
+[2020-07-29T12:32:11.986] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'?\' at line 1' }
+[2020-07-29T12:32:12.399] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'?\' at line 1' }
+[2020-07-29T12:32:22.022] [ERROR] default - null
+[2020-07-29T12:32:22.278] [ERROR] default - { Error: Unknown column 'play' in 'field list'
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: 'Unknown column \'play\' in \'field list\'' }
+[2020-07-29T12:32:22.976] [ERROR] default - { Error: Unknown column 'play' in 'field list'
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: 'Unknown column \'play\' in \'field list\'' }
+[2020-07-29T12:32:39.254] [ERROR] default - null
+[2020-07-29T12:32:39.825] [ERROR] default - { Error: Unknown column 'play' in 'field list'
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: 'Unknown column \'play\' in \'field list\'' }
+[2020-07-29T12:32:39.964] [ERROR] default - { Error: Unknown column 'play' in 'field list'
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: 'Unknown column \'play\' in \'field list\'' }
+[2020-07-29T12:32:49.446] [ERROR] default - null
+[2020-07-29T12:32:49.602] [ERROR] default - { Error: Unknown column 'play' in 'field list'
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: 'Unknown column \'play\' in \'field list\'' }
+[2020-07-29T12:32:49.956] [ERROR] default - { Error: Unknown column 'play' in 'field list'
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: 'Unknown column \'play\' in \'field list\'' }
+[2020-07-29T12:33:19.509] [ERROR] default - null
+[2020-07-29T12:33:30.489] [ERROR] default - null
+[2020-07-29T12:35:31.260] [ERROR] default - null
+[2020-07-29T12:35:31.621] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state, 'play')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state, \'play\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:35:31.951] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state, 'play')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state, \'play\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:36:10.036] [ERROR] default - null
+[2020-07-29T12:36:10.200] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state, 'play')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state, \'play\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:36:10.959] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state, 'play')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state, \'play\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:36:35.469] [ERROR] default - null
+[2020-07-29T12:36:35.830] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state, 'waiting')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state, \'waiting\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:36:36.965] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state, 'waiting')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state, \'waiting\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:37:08.321] [ERROR] default - null
+[2020-07-29T12:37:08.851] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state, 'play')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state, \'play\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:37:08.955] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state, 'play')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state, \'play\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:37:16.460] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state, 'play')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state, \'play\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:37:58.578] [ERROR] default - null
+[2020-07-29T12:37:58.743] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state = 'play')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state = \'play\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:37:59.024] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state = 'play')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state = \'play\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:38:03.389] [ERROR] default - { Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(state = 'play')  WHERE id=chat' at line 1
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'(state = \'play\')  WHERE id=chat\' at line 1' }
+[2020-07-29T12:38:25.332] [ERROR] default - null
+[2020-07-29T12:38:25.501] [ERROR] default - { Error: Unknown column 'chat' in 'where clause'
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: 'Unknown column \'chat\' in \'where clause\'' }
+[2020-07-29T12:38:25.688] [ERROR] default - { Error: Unknown column 'chat' in 'where clause'
+    at Packet.asError (/var/www/game-app/node_modules/mysql2/lib/packets/packet.js:712:17)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:28:26)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/var/www/game-app/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/var/www/game-app/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/var/www/game-app/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: 'Unknown column \'chat\' in \'where clause\'' }
+[2020-07-29T12:39:08.524] [ERROR] default - null
+[2020-07-29T12:39:37.629] [ERROR] default - null
+[2020-07-29T12:39:45.178] [ERROR] default - null
+[2020-07-29T12:40:59.968] [ERROR] default - null
+[2020-07-29T12:41:59.088] [ERROR] default - null
+[2020-07-29T12:42:48.695] [ERROR] default - null
+[2020-07-29T12:44:07.432] [ERROR] default - null
+[2020-07-29T12:44:39.251] [ERROR] default - null
+[2020-07-29T12:49:03.833] [ERROR] default - null
+[2020-07-29T12:49:44.521] [ERROR] default - null
+[2020-07-29T12:49:49.347] [ERROR] default - null
+[2020-07-29T12:51:56.227] [ERROR] default - null
+[2020-07-29T12:52:11.585] [ERROR] default - null
+[2020-07-29T12:52:51.346] [ERROR] default - null
+[2020-07-29T12:56:16.691] [ERROR] default - null
+[2020-07-29T12:56:32.444] [ERROR] default - null
+[2020-07-29T12:58:36.626] [ERROR] default - null
+[2020-07-29T12:58:44.244] [ERROR] default - null
+[2020-07-29T12:59:28.566] [ERROR] default - null
+[2020-07-29T12:59:49.852] [ERROR] default - null
+[2020-07-29T13:00:32.132] [ERROR] default - null
+[2020-07-29T13:00:57.107] [ERROR] default - null
+[2020-07-29T13:01:05.152] [ERROR] default - null
+[2020-07-29T13:01:35.023] [ERROR] default - null
+[2020-07-29T13:02:09.141] [ERROR] default - null
+[2020-07-29T13:02:30.179] [ERROR] default - null
+[2020-07-29T13:02:34.149] [ERROR] default - null
+[2020-07-29T13:03:25.668] [ERROR] default - null
+[2020-07-29T13:06:21.293] [ERROR] default - null
+[2020-07-29T13:06:23.744] [ERROR] default - null
+[2020-07-29T13:06:35.273] [ERROR] default - null
+[2020-07-29T13:08:29.279] [ERROR] default - null
+[2020-07-29T13:08:39.683] [ERROR] default - null
+[2020-07-29T13:10:37.757] [ERROR] default - null
+[2020-07-29T13:12:46.722] [ERROR] default - null
+[2020-07-29T13:13:00.467] [ERROR] default - null
+[2020-07-29T13:13:38.233] [ERROR] default - null
+[2020-07-29T13:14:11.085] [ERROR] default - null
+[2020-07-29T13:15:26.758] [ERROR] default - null
+[2020-07-29T13:15:44.281] [ERROR] default - null
+[2020-07-29T13:29:09.711] [ERROR] default - null
+[2020-07-29T13:29:37.236] [ERROR] default - null
+[2020-07-29T13:30:16.414] [ERROR] default - null
+[2020-07-29T13:32:04.304] [ERROR] default - null
+[2020-07-29T13:34:41.336] [ERROR] default - null
+[2020-07-29T13:36:34.942] [ERROR] default - null
+[2020-07-29T13:39:03.506] [ERROR] default - null
+[2020-07-29T13:39:14.408] [ERROR] default - null
+[2020-07-29T13:45:25.427] [ERROR] default - null
+[2020-07-29T13:45:46.958] [ERROR] default - null
+[2020-07-29T13:46:24.035] [ERROR] default - null
+[2020-07-29T13:47:24.129] [ERROR] default - null
+[2020-07-29T13:47:25.211] [ERROR] default - null
+[2020-07-29T13:48:17.377] [ERROR] default - null
+[2020-07-29T13:48:24.959] [ERROR] default - null
+[2020-07-29T13:48:32.862] [ERROR] default - null
+[2020-07-29T13:51:35.647] [ERROR] default - null
+[2020-07-29T13:58:32.485] [ERROR] default - null
+[2020-07-29T13:59:30.931] [ERROR] default - null
+[2020-07-29T14:00:04.577] [ERROR] default - null
+[2020-07-29T14:00:33.282] [ERROR] default - null
+[2020-07-29T14:00:52.463] [ERROR] default - null
+[2020-07-29T14:04:18.303] [ERROR] default - null
+[2020-07-29T14:21:28.271] [ERROR] default - null
+[2020-07-29T14:21:40.852] [ERROR] default - null
+[2020-07-29T14:21:42.045] [ERROR] default - null
+[2020-07-29T14:23:06.454] [ERROR] default - null
+[2020-07-29T14:24:07.819] [ERROR] default - null
+[2020-07-29T14:25:33.702] [ERROR] default - null
+[2020-07-29T14:25:44.724] [ERROR] default - null
+[2020-07-29T14:26:33.080] [ERROR] default - null
+[2020-07-29T14:29:25.960] [ERROR] default - null
+[2020-07-29T14:32:11.352] [ERROR] default - null
+[2020-07-29T14:38:01.147] [ERROR] default - null
+[2020-07-29T15:22:26.594] [ERROR] default - null
+[2020-07-29T16:09:40.041] [ERROR] default - null
+[2020-07-30T05:12:40.606] [ERROR] default - { Error: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:396:12)
+    at Connection.write (/var/www/game-app/node_modules/mysql2/lib/connection.js:226:17)
+    at Connection.writePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:271:12)
+    at Query.start (/var/www/game-app/node_modules/mysql2/lib/commands/query.js:53:16)
+    at Query.execute (/var/www/game-app/node_modules/mysql2/lib/commands/command.js:39:22)
+    at Connection.handlePacket (/var/www/game-app/node_modules/mysql2/lib/connection.js:417:32)
+    at Connection.addCommand (/var/www/game-app/node_modules/mysql2/lib/connection.js:439:12)
+    at Connection.query (/var/www/game-app/node_modules/mysql2/lib/connection.js:502:17)
+    at Promise (/var/www/game-app/app/classes/System/DatabaseManager.js:10:21)
+    at new Promise (<anonymous>) code: 'EPIPE', fatal: true }
+[2020-07-30T05:12:41.362] [ERROR] default - { Error: Can't add new command when connection is in closed state
+    at Connection._addCommandClosedState (/var/www/game-app/node_modules/mysql2/lib/connection.js:137:17)
+    at Connection.query (/var/www/game-app/node_modules/mysql2/lib/connection.js:502:17)
+    at Promise (/var/www/game-app/app/classes/System/DatabaseManager.js:10:21)
+    at new Promise (<anonymous>)
+    at DatabaseManager.select (/var/www/game-app/app/classes/System/DatabaseManager.js:9:12)
+    at ConnectionModel.clientHasConnection (/var/www/game-app/app/classes/Models/ConnectionModel.js:10:26)
+    at ConnectionController.connect (/var/www/game-app/app/classes/Controllers/ConnectionController.js:8:55)
+    at /var/www/game-app/app/install.js:5:26
+    at Namespace.io.sockets.on (/var/www/game-app/index.js:25:3)
+    at Namespace.emit (events.js:198:13) fatal: true }
+[2020-07-30T05:17:17.842] [ERROR] default - null
+[2020-07-30T05:19:13.208] [ERROR] default - null
+[2020-07-30T05:20:44.241] [ERROR] default - null
+[2020-07-30T05:20:57.914] [ERROR] default - null
+[2020-07-30T05:21:05.744] [ERROR] default - null
+[2020-07-30T05:23:29.387] [ERROR] default - null
+[2020-07-30T05:24:43.706] [ERROR] default - null
+[2020-07-30T05:30:09.087] [ERROR] default - null
+[2020-07-30T05:30:35.066] [ERROR] default - null
+[2020-07-30T05:31:24.797] [ERROR] default - null
+[2020-07-30T05:32:11.506] [ERROR] default - null
+[2020-07-30T05:32:52.279] [ERROR] default - null
+[2020-07-30T05:33:08.062] [ERROR] default - null
+[2020-07-30T05:33:36.731] [ERROR] default - null
+[2020-07-30T05:33:42.428] [ERROR] default - null
+[2020-07-30T05:33:58.452] [ERROR] default - null
+[2020-07-30T05:34:33.754] [ERROR] default - null
+[2020-07-30T05:34:46.456] [ERROR] default - null
+[2020-07-30T05:38:25.009] [ERROR] default - null
+[2020-07-30T05:38:54.675] [ERROR] default - null
+[2020-07-30T05:39:09.780] [ERROR] default - null
+[2020-07-30T05:39:18.574] [ERROR] default - null
+[2020-07-30T05:39:24.401] [ERROR] default - null
+[2020-07-30T05:39:32.360] [ERROR] default - null
+[2020-07-30T05:39:35.664] [ERROR] default - null
+[2020-07-30T05:39:42.762] [ERROR] default - null
+[2020-07-30T05:41:51.475] [ERROR] default - null
+[2020-07-30T05:42:04.961] [ERROR] default - null
+[2020-07-30T05:42:59.826] [ERROR] default - null
+[2020-07-30T05:43:21.335] [ERROR] default - null
+[2020-07-30T05:44:39.306] [ERROR] default - null
+[2020-07-30T05:45:35.269] [ERROR] default - null
+[2020-07-30T05:45:55.556] [ERROR] default - null
+[2020-07-30T05:47:01.084] [ERROR] default - null
+[2020-07-30T05:48:02.642] [ERROR] default - null
+[2020-07-30T05:49:27.032] [ERROR] default - null
+[2020-07-30T05:49:54.030] [ERROR] default - null
+[2020-07-30T05:50:31.858] [ERROR] default - null
+[2020-07-30T05:52:38.448] [ERROR] default - null
+[2020-07-30T05:53:37.624] [ERROR] default - null
+[2020-07-30T05:55:55.225] [ERROR] default - null
+[2020-07-30T05:56:11.048] [ERROR] default - null
+[2020-07-30T05:57:37.736] [ERROR] default - null
+[2020-07-30T05:58:28.863] [ERROR] default - null
+[2020-07-30T05:59:50.085] [ERROR] default - null
+[2020-07-30T05:59:53.404] [ERROR] default - null
+[2020-07-30T05:59:57.651] [ERROR] default - null
+[2020-07-30T06:01:13.772] [ERROR] default - null
+[2020-07-30T06:01:31.862] [ERROR] default - null
+[2020-07-30T06:02:02.780] [ERROR] default - null
+[2020-07-30T06:02:32.280] [ERROR] default - null
+[2020-07-30T06:02:56.590] [ERROR] default - null
+[2020-07-30T06:03:26.567] [ERROR] default - null
+[2020-07-30T06:03:33.058] [ERROR] default - null
+[2020-07-30T06:06:13.495] [ERROR] default - null
+[2020-07-30T06:08:00.171] [ERROR] default - null
+[2020-07-30T06:08:23.201] [ERROR] default - null
+[2020-07-30T06:08:27.296] [ERROR] default - null
+[2020-07-30T06:08:55.144] [ERROR] default - null
+[2020-07-30T06:09:01.550] [ERROR] default - null
+[2020-07-30T06:12:36.086] [ERROR] default - null
+[2020-07-30T06:12:45.889] [ERROR] default - null
+[2020-07-30T06:13:50.004] [ERROR] default - null
+[2020-07-30T06:14:16.066] [ERROR] default - null
+[2020-07-30T06:14:17.328] [ERROR] default - null
+[2020-07-30T06:14:29.616] [ERROR] default - null
+[2020-07-30T06:15:43.646] [ERROR] default - null
+[2020-07-30T06:17:16.454] [ERROR] default - null
+[2020-07-30T06:17:26.033] [ERROR] default - null
+[2020-07-30T06:17:31.178] [ERROR] default - null
+[2020-07-30T06:27:01.456] [ERROR] default - null
+[2020-07-30T06:36:01.639] [ERROR] default - null
