@@ -2,7 +2,7 @@ const ConnectionController = require("./classes/Controllers/ConnectionController
 const GameStateManagerController = require("./classes/Controllers/GameStateManagerController");
 
 module.exports = function (db) {
-  return async function (socket, io, room) {
+  return function (socket, io, room) {
     const connectionController = new ConnectionController(socket, io, room, db);
     const gameStateManagerController = new GameStateManagerController(db);
 

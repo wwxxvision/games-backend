@@ -22,6 +22,10 @@ io.on("connection", (socket) => {
     nickname: "Jora",
   };
 
+  // socket.on('entry-game', () => {
+  // gameApp(socket, io, { room: prepareSocket.room, name: "chat" }, mysql);
+  // })
+
   gameApp(socket, io, { room: prepareSocket.room, name: "chat" }, mysql);
 });
 
