@@ -1,19 +1,33 @@
 const ConnectionController = require("./classes/Controllers/ConnectionController");
-const GameStateManagerController = require("./classes/Controllers/GameStateManagerController");
+const GameController = require("./classes/Controllers/GameController");
 
 module.exports = function (db) {
-  return function (socket, io, room) {
-    const connectionController = new ConnectionController(socket, io, room, db);
-    const gameStateManagerController = new GameStateManagerController(db);
+	return async function (room, io) {
+		const connectionController = new ConnectionController(db);
+		const gameController = new GameController(db);
 
-    connectionController.connect();
-    connectionController.on("full-connection", function () {
-      gameStateManagerController.play(io, room);
-    });
+		const connections = await connectionController.createConnectons(
+			room.players
+		);
 
-    socket.on("disconnect", function () {
-      gameStateManagerController.finish(io, room, socket);
-      connectionController.disconnect();
-    });
-  };
+		const gameId = await gameController.createNew({
+			game: room.game,
+			...connections,
+		});
+
+		const roomName = `game:${gameId}`
+
+		const GameClass = require(`./games/${room.game}`);
+		const game = new GameClass(
+			gameController,
+			connectionController,
+			room,
+			roomName,
+			gameId,
+			io
+		)
+
+		await game.init()
+		io.to(roomName).emit('start');
+	};
 };

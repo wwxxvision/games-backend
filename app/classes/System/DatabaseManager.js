@@ -18,10 +18,9 @@ class DatabaseManager {
   insert(queryString) {
     return new Promise((resolve) => {
       this.database.query(`INSERT ${queryString}`, (err, result) => {
-        console.log(err);
         if (err) logger.error(err);
 
-        resolve(result);
+        resolve(result.insertId);
       });
     });
   }
@@ -39,7 +38,6 @@ class DatabaseManager {
   delete(queryString) {
     return new Promise((resolve) => {
       this.database.query(`DELETE ${queryString}`, (err, result) => {
-        console.log(err);
         if (err) logger.error(err);
 
         resolve(result);

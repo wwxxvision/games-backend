@@ -1,61 +1,31 @@
 const DatabaseManager = require("../System/DatabaseManager");
 
 class ConnectionModel {
-  constructor(db) {
-    this.db = new DatabaseManager(db);
-    this.MAX_CONNECTIONS = 2;
-  }
+	constructor(db) {
+		this.db = new DatabaseManager(db);
+	}
 
-  async clientHasConnection(room) {
-    return await this.db.select(`* FROM games WHERE id='${room.name}'`);
-  }
+	async create({ player_id, socket_id }) {
+		return this.db.insert(
+			`INTO connections (player_id, socket_id) VALUES ('${player_id}', '${socket_id}')`
+		);
+	}
 
-  async createConnection(idClient, room) {
-    await this.db.insert(
-      `INTO games (id, state) VALUES ('${room.name}', 'waiting')`
-    );
-    await this.db.insert(
-      `INTO players (id, state) VALUES ('${idClient}', 'default')`
-    );
-    await this.db.insert(
-      `INTO rooms (player_id, game_id) VALUES ('${idClient}', '${room.name}')`
-    );
-  }
+	async getWaitngBySocketId(socket_id) {
+		return await this.db.select(`* FROM connections WHERE socket_id='${socket_id}' AND status='wait'`);
+	}
 
-  async updateConnection(idClient, room) {
-    const countConnections = await this.db.select(
-      `* FROM rooms WHERE game_id='${room.name}'`
-    );
+	async updateByPlayerId(player_id, status) {
+		return await this.db.update(
+			`connections SET status = '${status}' WHERE player_id='${player_id}'`
+		);
+	}
 
-    if (countConnections.length < this.MAX_CONNECTIONS) {
-      await this.db.insert(
-        `INTO players (id, state) VALUES ('${idClient}', 'default')`
-      );
-      await this.db.insert(
-        `INTO rooms (player_id, game_id) VALUES ('${idClient}', '${room.name}')`
-      );
-    }
-  }
-
-  async disconnectConnection(idClient, room) {
-    await this.db.delete(`FROM rooms WHERE player_id='${idClient}'`);
-    await this.db.delete(`FROM players WHERE id='${idClient}'`);
-
-    const hasPlayersInRoom = await this.db.select(
-      `* FROM rooms WHERE game_id='${room.name}'`
-    );
-    if (!hasPlayersInRoom.length) {
-      await this.db.delete(`FROM games WHERE id='${room.name}'`);
-    }
-  }
-
-  async connectionIsFull(room) {
-    const countConnections = await this.db.select(
-      `* FROM rooms WHERE game_id='${room.name}'`
-    );
-
-    return countConnections.length === this.MAX_CONNECTIONS;
-  }
+	async updateBySocketId(socket_id, status) {
+		return await this.db.update(
+			`connections SET status = '${status}' WHERE socket_id='${socket_id}'`
+		);
+	}
 }
 
 module.exports = ConnectionModel;

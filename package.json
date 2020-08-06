@@ -3,7 +3,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npx nodemon index",
-    "migrate": "npx db-migrate --migrations-dir app/db/migrations  --config app/db/migrate.conf.json"
+    "migrate": "npx db-migrate up --migrations-dir app/db/migrations  --config app/db/migrate.conf.json",
+    "migrate:down": "npx db-migrate down --migrations-dir app/db/migrations  --config app/db/migrate.conf.json"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +19,8 @@
     "mongoose": "^5.9.26",
     "mysql2": "^2.1.0",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }

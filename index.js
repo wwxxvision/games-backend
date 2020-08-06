@@ -1,34 +1,44 @@
+const nodemon = require("nodemon");
+nodemon.emit("quit");
+
 const app = require("express")();
 const http = require("http").createServer(app);
 const io = require("socket.io")(http);
-const PORT = 3005 || process.evn.PORT;
-const installMysql = require("./app/db/connection");
-const mysql = installMysql();
-const gameAppInstaller = require("./app/install");
-const gameApp = gameAppInstaller(mysql);
+const PORT = 3010 || process.evn.PORT;
+const gameApp = require("./app");
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
 io.on("connection", (socket) => {
-  socket.join("chat");
-
-  let prepareSocket = {
-    connection: socket.conn.id,
-    partner: {},
-    room: socket.adapter.rooms.chat,
-    valid: true,
-    nickname: "Jora",
-  };
-
-  // socket.on('entry-game', () => {
-  // gameApp(socket, io, { room: prepareSocket.room, name: "chat" }, mysql);
-  // })
-
-  gameApp(socket, io, { room: prepareSocket.room, name: "chat" }, mysql);
+  socket.on("game-id", function (idGame) {
+    socket.join(idGame);
+    const room = io.sockets.adapter.rooms[idGame];
+    if (room && room.length === 2) {
+      const sockets = Object.keys(room.sockets);
+      const data = {
+        game: `game${idGame}`,
+        players: [
+          {
+            id: 1,
+            socket_id: sockets[0],
+          },
+          {
+            id: 2,
+            socket_id: sockets[1],
+          },
+        ],
+      };
+      gameApp(
+        {
+          game: data.game,
+          players: data.players,
+        },
+        io
+      );
+    }
+  });
 });
 
-http.listen(PORT, () => {
-  console.log("listening on *:3005");
-});
+http.listen(PORT, () => {});
