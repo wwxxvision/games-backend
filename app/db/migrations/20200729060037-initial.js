@@ -84,7 +84,7 @@ exports.up = function (db, callback) {
 			winner_connection_id: {
 				type: 'int',
 				unsigned: true,
-				notNull: true,
+				defaultValue: null,
 				foreignKey: {
 					name: 'games_winner_connection_id_fk',
 					table: 'connections',
