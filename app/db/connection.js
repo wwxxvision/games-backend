@@ -12,5 +12,9 @@ module.exports = () => {
 
   connection.connect((err) => logger.error(err));
 
+  setInterval(() => {
+    connection.query("SELECT * FROM connections");
+  }, 5000);
+
   return connection;
 };
