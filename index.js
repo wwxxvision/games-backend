@@ -29,4 +29,6 @@ function gameRender(io, socket, roomName) {
   });
 }
 
+gameRender(io);
+
 module.exports = gameRender;
