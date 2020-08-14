@@ -12,13 +12,13 @@ class Session {
 		const self = this
 		player.socket.on("finish", function (number) {
 			self.playerNumber = number
-			if (self.enemyNumber) {
+			if (self.enemyNumber || self.enemyNumber === 0) {
 				self.finish()
 			}
 		})
 		enemy.socket.on("finish", function (number) {
 			self.enemyNumber = number
-			if (self.playerNumber) {
+			if (self.playerNumber || self.playerNumber === 0) {
 				self.finish()
 			}
 		})
@@ -33,7 +33,7 @@ class Session {
 			playerNumber,
 			enemyNumber
 		} = this
-
+		console.log('finish', status)
 		game.onSessionFinish(player, status === 'win', enemy)
 		player.socket.emit(status, {
 			player: playerNumber,

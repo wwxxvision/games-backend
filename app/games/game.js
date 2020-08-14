@@ -83,13 +83,9 @@ class Game {
 		if (this.firstFinished) gameController.finish(gameId);
 		this.firstFinished = true;
 		if (enemy) {
-			player.socket.on("play-again", function () {
-				enemy.socket.emit("partner-play-again");
-				enemy.socket.on("accept-play-again", function () {
-					const gameApp = require("../");
-					gameApp(room, io);
-				});
-			});
+			const gameRender = require("../../");
+			console.log(room.initialRoomName)
+			gameRender(io, player.socket, room.initialRoomName);
 		}
 	}
 }

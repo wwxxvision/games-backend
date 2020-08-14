@@ -1,28 +1,30 @@
-const ParentSession = require("../session");
+const ParentSession = require("../session")
 
 class Session extends ParentSession {
-  start() {
-    const { player, enemy } = this;
 
-    player.socket.on("player-click", function () {
-      enemy.socket.emit("partner-click");
-    });
+	start() {
+		const { player, enemy } = this
 
-    super.start();
-  }
+		player.socket.on("player-click", function () {
+			enemy.socket.emit("partner-click")
+		})
 
-  finish() {
-    const { playerNumber, enemyNumber } = this;
+		super.start()
+	}
 
-    this.status =
-      playerNumber === enemyNumber || (!playerNumber && !enemyNumber)
-        ? "standoff"
-        : enemyNumber < playerNumber
-        ? "win"
-        : "lose";
+	finish() {
+		const {
+			playerNumber,
+			enemyNumber
+		} = this
 
-    super.finish();
-  }
+		this.status = playerNumber === enemyNumber
+			? 'standoff'
+			: enemyNumber < playerNumber ? 'win' : 'lose'
+
+			console.log(enemyNumber,playerNumber,this.status)
+		super.finish()
+	}
 }
 
 module.exports = Session;
